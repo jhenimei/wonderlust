@@ -76,6 +76,25 @@ body {
     display: grid;
     grid-template-columns: 1fr;
 }
+
+#skipLink{
+	position: absolute;
+	left: -999px;
+	height:  0;
+	width:  0;
+}
+
+#skipLink:focus{
+	top: 1em;
+	left: 1em;
+	display: block;
+	font-size: 1.2em;
+	padding: 0.5em;
+	width: 25%;
+	height: 1.5em;
+	line-height: 1.3em;
+}
+
 header, nav, article, footer {
     padding: 1rem;
 }
